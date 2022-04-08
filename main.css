@@ -66,6 +66,7 @@ flex: 1;
 }
 
 .middle-pics img{
+display: flex;
 width: 250px;
 height: 150px;
 border-radius: 0 50% 50% 50%;
@@ -73,15 +74,17 @@ border-style: dotted;
 border-color: aqua;
 max-width: 100%;
 max-height: 100%;
-
+flex-shrink: 0;
 
 }
 
 .middle-pics p{
+display: flex;
 font-weight: bold;
 font-family: monospace;
 font-size: xx-large;
-color: darkblue
+color: darkblue;
+flex-shrink: 0;
 
 }
 .quote{
@@ -93,7 +96,7 @@ font-size: xx-large;
 justify-content: center;
 align-items: center;
 width: 100%;
-
+flex-shrink: 0;
 
 }
 
