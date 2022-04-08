@@ -6,6 +6,7 @@ height:100px;
 font-size: 30px;
 gap: 1%;
 justify-content: flex-end;
+flex: 1; 
 
 
 }
@@ -32,14 +33,14 @@ justify-content: flex-end;
 .headers p {
     margin-left: 10%;
 }
-.headers img{
+.img{
     display: flex;
     width: 30em;
     height: 15em;
     align-items: flex-end;
-    margin-right: 6%;
-    margin-left: 5%;
-    
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1; 
    
 }
 
@@ -47,14 +48,20 @@ justify-content: flex-end;
     background-color:beige; 
     justify-items: center;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    
+   
 }
 
 .middle-pics{
     display: flex;
     background-color:beige; 
     justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
     gap: 7%;
+    
     
 }
 
@@ -64,6 +71,9 @@ height: 150px;
 border-radius: 0 50% 50% 50%;
 border-style: dotted;
 border-color: aqua;
+max-width: 100%;
+max-height: 100%;
+
 
 }
 
