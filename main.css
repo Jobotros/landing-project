@@ -61,14 +61,15 @@ flex: 1;
     max-width: 100%;
     max-height: 100%;
     gap: 7%;
+    flex: 1;
     
     
 }
 
 .middle-pics img{
 display: flex;
-width: 250px;
-height: 150px;
+width: 15em;
+height: 10em;
 border-radius: 0 50% 50% 50%;
 border-style: dotted;
 border-color: aqua;
@@ -140,6 +141,8 @@ width: 60%;
 height: 60%;
 color: rgb(218, 195, 169);
 justify-content: center;
+flex-shrink: 0;
+
 
 }  
 
