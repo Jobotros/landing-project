@@ -17,6 +17,7 @@ justify-content: flex-end;
     background-color: darkslategray;
     color: wheat;
     height: 600px;
+    width: 100%;
     font-size: 30px;
     
     
@@ -24,25 +25,29 @@ justify-content: flex-end;
 }
 
 .headers h1 {
-    margin-left: 50px;
+    margin-left: 10%;
 
 }
 
 .headers p {
-    margin-left: 50px;
+    margin-left: 10%;
 }
 .headers img{
     display: flex;
-    width: 600px;
-    height: 450px;
+    width: 30em;
+    height: 15em;
     align-items: flex-end;
-    margin-left: 500px;
+    margin-right: 6%;
+    margin-left: 5%;
+    
+   
 }
 
 .middle-main{
     background-color:beige; 
     justify-items: center;
     text-align: center;
+    width: 100%;
 }
 
 .middle-pics{
@@ -77,15 +82,18 @@ background-color: lightgray;
 font-size: xx-large;
 justify-content: center;
 align-items: center;
+width: 100%;
 
 
 }
 
 .bottom{
+    display:flex ;
     height: 250px;
     background-color: white;
-
-
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .footer{
@@ -93,6 +101,7 @@ align-items: center;
  color: orange;
  text-align: center;
  font-size: larger;
+ width: 100%;
 }
 
 .btn {
@@ -109,12 +118,7 @@ align-items: center;
  font-weight: bold;
  margin: 50px;
 }
-.bottom{
-display:flex ;
-justify-content: center;
-align-items: center;
 
-}
 
 .news{
 display: flex;
@@ -123,6 +127,7 @@ width: 60%;
 height: 60%;
 color: rgb(218, 195, 169);
 justify-content: center;
+
 }  
 
 .footer{
