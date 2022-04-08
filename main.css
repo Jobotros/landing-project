@@ -47,7 +47,6 @@ justify-content: flex-end;
 
 .middle-pics{
     display: flex;
-    height: 300;  
     background-color:beige; 
     justify-content: center;
     gap: 7%;
@@ -75,7 +74,6 @@ display: flex;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: italic;
 background-color: lightgray;
-height: 85px;
 font-size: xx-large;
 justify-content: center;
 align-items: center;
@@ -92,7 +90,6 @@ align-items: center;
 
 .footer{
  background-color: darkslategrey;
- height: 30px;
  color: orange;
  text-align: center;
  font-size: larger;
