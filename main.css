@@ -1,7 +1,6 @@
 .navi{
 display: flex;
 background-color:darkslategray; 
-
 height:100px;
 font-size: 30px;
 gap: 1%;
@@ -13,6 +12,8 @@ flex: 1;
 .navi a{
     color: wheat;
 }
+
+
 .headers{
     display: flex;
     background-color: darkslategray;
